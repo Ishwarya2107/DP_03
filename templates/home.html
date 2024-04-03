@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP</title>
+    <style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+    padding: 10px 20px;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.button-home{
+  
+background-color: #333; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+padding : 10px;
+margin-right : 50px;
+border-radius: 10px; 
+
+
+}
+
+.home-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+.home-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.home-img{
+    width:800px;
+    height:500px;
+}
+    </style>
+   
+</head>
+<body>
+    <ul>
+        <li><a href="#">APP</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+    <div class="container">
+        
+        <div style="flex: 1;">
+            <h1 class="home-text" style="padding: 100px;font-size: 50px;">APP</h1>
+            <p class="home-text" style="padding-left: 100px;padding-right:200px;padding-bottom: 50px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod neque vel lectus fermentum, nec pellentesque justo venenatis. Vivamus ac neque non velit ultrices consequat. Donec et odio et odio eleifend pulvinar. Maecenas sed condimentum velit. Nullam scelerisque tincidunt est, sit amet pulvinar ipsum vulputate sed. Integer non velit sed metus convallis malesuada
+            </p>
+            <div class="button-container" style="padding-left: 100px; padding-right: 100px;">
+                <a href="/login"><button class="button-home">login</button></a>
+                <a href="/register"><button class="button-home">register</button></a>
+            
+                
+                
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+        <div style="padding-right: 200px">
+            <img class="home-img" src="https://img.freepik.com/free-vector/college-entrance-exam-concept-illustration_114360-10502.jpg?w=1060&t=st=1711624886~exp=1711625486~hmac=6edd4bd6fcc169a6aa34badc7c11ec93cdf39bcd34d2f2a91c29f54fab0e19d5" alt="Limousine">
+        </div>
+    </div>
+</body>
+</html>

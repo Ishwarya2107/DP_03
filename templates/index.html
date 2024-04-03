@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shop Data Form</title>
+    <style>
+     
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+input, button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+    </style>
+   
+</head>
+<body>
+    <form id="shopDataForm" action="/submitData" method="post" >
+        <label for="expenses">Expenses:</label>
+        <input type="text" id="expenses" name="expenses" required>
+        <label for="profit">Profit Earned:</label>
+        <input type="text" id="profit" name="profit" required>
+        <button type="submit">Submit</button>
+        
+    </form>
+    <form action="/getData" method="get">
+        <button type="submit">Show</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
